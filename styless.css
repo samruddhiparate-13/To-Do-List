@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .container {
+    position: relative;
+  height: 100vh;
+  background-image: url('Images/Premium Photo _ Flat lay top view office desk_ workspace with keyboard and office supplies_.jpg');
+  background-size: cover;
+  background-position: center;
+  }
+  
+  .quote-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .background-image {
+    width: 100%;
+    height: 100%;
+}
+
+  
+  .quote {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .quote-text {
+    font-family: 'Arial', sans-serif; /* Unique font family */
+    font-size: 24px;
+    font-style: italic;
+    line-height: 1.5;
+  }
+  
+  .get-started-btn {
+    position: absolute;
+    bottom: 120px; /* Adjusted position to leave space below the quote */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: #ff3b30; /* Red watery color */
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+    
+  
+  .get-started-btn:hover {
+    background-color: #cc2f23; /* Darker shade of red on hover */
+  }
+  
+  .task-trek {
+    font-family: 'Arial', sans-serif; /* Same font family as the quote */
+    font-size: 24px; /* Same font size as the quote */
+    font-style: italic; /* Same font style as the quote */
+    font-weight: bold; /* Make the text bold */
+    margin-bottom: 10px; /* Add space between the name and the quote */
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .quote-text {
+        font-size: 16px;
+    }
+
+    .get-started-btn {
+        bottom: 20px;
+    }
+
+    .task-trek {
+        font-size: 16px;
+    }
+}
+  
