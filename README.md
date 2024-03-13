@@ -1,5 +1,3 @@
-# To-Do-List
-
 # To-Do-list
 
 Welcome to the To-Do List Repository!
